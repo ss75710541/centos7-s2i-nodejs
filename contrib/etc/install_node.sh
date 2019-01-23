@@ -28,6 +28,7 @@ npm install -g yarn -s &>/dev/null
 
 # Install nsp
 npm install -g nsp -s &>/dev/null
+npm audit --audit-level high -s &>/dev/null
 
 # Make sure npx is available
 if [ ! -h /usr/bin/npx ] ; then
